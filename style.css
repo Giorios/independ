@@ -2,3 +2,24 @@ html, body {
   height: 100%;
   width: 100%;
 }
+.swatch {
+	border: 1px solid #292929;
+	display: inline-block;
+	width: 22%;
+	height: 40px;
+	margin: 0;
+	margin-right: calc( 4% - 3px );
+	cursor: pointer;
+}
+.swatch:last-child {
+	margin-right: 0;
+}
+.swatch#beige {
+	background-color: #d9d1c7;
+}
+.swatch#black {
+	background-color: #000;
+}
+.swatch#blue {
+	background-color: #8ff1f2;
+}
