@@ -14,12 +14,28 @@ html, body {
 .swatch:last-child {
 	margin-right: 0;
 }
-.swatch#beige {
-	background-color: #d9d1c7;
-}
+
 .swatch#black {
 	background-color: #000;
 }
 .swatch#blue {
 	background-color: #8ff1f2;
+}
+.swatch#orange {
+	background-color: #e35e16;
+}
+.swatch#dblue {
+	background-color: #302df0;
+}
+.swatch#green {
+	background-color: #1ce94f;
+}
+.swatch#pink {
+	background-color: #ffa8a8;
+}
+.swatch#red {
+	background-color: #e52424;
+}
+.swatch#yellow {
+	background-color: #e7f529;
 }
