@@ -24,15 +24,17 @@
       <div class="col-sm-4">
         <div class="card">
           <div class="image">
-            <img src="img/bfrog.jpg" />
+            <img id="fpic" src="img/bfrog.jpg" />
           </div>
           <div class="card-inner">
             <div class="header">
-              <h2>Title</h2>
-              <h3>Sub-Head</h2>
+              <h2>Frog</h2>
+              <h3>An amphibious creature that can sometimes be posionous.</h2>
             </div>
             <div class="content">
-              <p><button type="button" class="rounded-circle">X</button></p>
+              <button onclick='bFro()' type="button" class="rounded-circle">X</button>
+              <button id="but2" onclick='tFro()' type="button" class="rounded-circle">X</button>
+              <button id="but3" onclick='oFro()' type="button" class="rounded-circle">X</button>
             </div>
           </div>
         </div>
@@ -42,15 +44,19 @@
       <div class="col-sm-4">
         <div class="card">
           <div class="image">
-            <img src="img/bfrog.jpg" />
+            <img id="mpic" src="img/bmantis.jpg" />
           </div>
           <div class="card-inner">
             <div class="header">
-              <h2>Title</h2>
-              <h3>Sub-Head</h2>
+              <h2>Mantis</h2>
+              <h3>A relatively large bug known for its prayer-like stance.</h2>
             </div>
             <div class="content">
-              <p><button type="button" class="rounded-circle">X</button></p>
+              <div class="content">
+                <button id="but4" onclick='bMan()' type="button" class="rounded-circle">X</button>
+                <button id="but5" onclick='pMan()' type="button" class="rounded-circle">X</button>
+                <button id="but6" onclick='gMan()' type="button" class="rounded-circle">X</button>
+              </div>
             </div>
           </div>
         </div>
@@ -59,129 +65,61 @@
       <div class="col-sm-4">
         <div class="card">
           <div class="image">
-            <img src="img/bfrog.jpg" />
+            <img id="bphoto" src="img/bbutterfly.jpg" />
           </div>
           <div class="card-inner">
             <div class="header">
-              <h2>Title</h2>
-              <h3>Sub-Head</h2>
+              <h2>Butterfly</h2>
+              <h3>A bug that flies and can have beautiful patterns on its wings.</h2>
             </div>
             <div class="content">
-              <p><button type="button" class="rounded-circle">X</button></p>
+              <button id="but7" onclick='bBut()' type="button" class="rounded-circle">X</button>
+              <button id="but8" onclick='oBut()' type="button" class="rounded-circle">X</button>
+              <button id="but9" onclick='wBut()' type="button" class="rounded-circle">X</button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!--
-  <div class="container text-center my-4">
+  <div class="container my-3">
     <div class="row">
-      <div class="col">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img id="bphoto" src="img/wbutterfly.jpg" class="img-fluid rounded-start">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Butterfly</h5>
-                <p id="btext" class="card-text">A cool butterfly, and an iconic creature!</p>
-                
-                <p class="card-text"></p>
-                <div id="color-swatches">
-                  <div class="swatch selected"></div>
-                  <div class="swatch" id="orange" onmouseover="oBut()" onmouseout="wBut()"></div>
-                  <div class="swatch" id="blue" onmouseover="bBut()" onmouseout="wBut()"></div>
-                </div>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img id="fpic" src="img/ofrog.jpg" class="img-fluid rounded-start">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Frog</h5>
-                <p class="card-text">An amphibian that comes in many different forms, sometimes even being poisonous!
-                </p>
-                <p class="card-text">
-                <div id="color-swatches">
-                  <div class="swatch selected"></div>
-                  <div class="swatch" id="green" onmouseover="tFro()" onmouseout="oFro()"></div>
-                  <div class="swatch" id="dblue" onmouseover="bFro()" onmouseout="oFro()"></div>
-                </div>
-                </p>
+      <div class="col-sm-4">
 
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-      <div class="col">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img id="mpic" src="img/bmantis.jpg" class="img-fluid rounded-start">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Mantis</h5>
-                <p class="card-text">A larger but still very popular bug, and is very powerful when it comes to other
-                  bugs.</p>
-                <p class="card-text">
-                <div id="color-swatches">
-                  <div class="swatch selected"></div>
-                  <div class="swatch" id="green" onmouseover="gMan()" onmouseout="bMan()"></div>
-                  <div class="swatch" id="pink" onmouseover="pMan()" onmouseout="bMan()"></div>
-                </div>
-                </p>
-              </div>
-            </div>
+
+
+
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="image">
+          <img id="lpic" src="img/rladybug.jpg" />
+        </div>
+        <div class="card-inner">
+          <div class="header">
+            <h2>Ladybug</h2>
+            <h3>A small flying bug, usually associated with some form of luck.</h2>
+          </div>
+          <div class="content">
+           <button id="but10" onclick='rLad()' type="button" class="rounded-circle">X</button>
+              <button id="but11" onclick='oLad()' type="button" class="rounded-circle">X</button>
+              <button id="but12" onclick='yLad()' type="button" class="rounded-circle">X</button>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="container text-center my-4">
-    <div class="row">
-      <div class="col">
-      </div>
-      <div class="col">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img id="lpic" src="img/oladybug.jpg" class="img-fluid rounded-start">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Ladybug</h5>
-                <p class="card-text">A small flying bug. Believed to represent luck in some form.</p>
-                <p class="card-text">
-                <div id="color-swatches">
-                  <div class="swatch selected"></div>
-                  <div class="swatch" id="red" onmouseover="rLad()" onmouseout="oLad()"></div>
-                  <div class="swatch" id="yellow" onmouseover="yLad()" onmouseout="oLad()"></div>
-                </div>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-      </div>
-    </div>
   </div>
--->
+  </div>
+
+
+
+  <div class="col-sm-4">
+
+  </div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>

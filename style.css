@@ -9,6 +9,83 @@ button {
   width: 40px;
   height: 40px;
 }
+#but2 {
+  background-color: #38ff45;
+  color: #ffffff;
+  border:3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
+#but3 {
+  background-color: #f21c1c;
+  color: #ffffff;
+  border:3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
+#but4 {
+  background-color: #a58e63;
+  color: #ffffff;
+  border:3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
+#but5 {
+  background-color: pink;
+  color: #ffffff;
+  border:3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
+#but6 {
+  background-color: #38ff45;
+  color: #ffffff;
+  border:3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
+#but7 {
+  background-color: #012b87;
+  color: #ffffff;
+  border:3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
+#but8 {
+  background-color: #ff6929;
+  color: #ffffff;
+  border:3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
+#but9 {
+  background-color: #ffffff;
+  color: #ffffff;
+  border:3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
+#but10 {
+  background-color: #ff0000;
+  color: #ffffff;
+  border:3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
+#but11 {
+  background-color: #ff6929;
+  color: #ffffff;
+  border:3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
+#but12 {
+  background-color: #f8f00d;
+  color: #ffffff;
+  border:3px solid #ffffff;
+  width: 40px;
+  height: 40px;
+}
 /*
 .swatch {
 	border: 1px solid #292929;
